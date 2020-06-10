@@ -17,7 +17,7 @@ Microsoft Teams Incoming Webhook supports html, so it was possible to get extern
 7. I send the request 20 times
 8. When I open the teams app and the Teams channel loads, it performs all the GET Requests at the same time, causing a flood on the server receiving the requests, I can even send the request to various channels and click to load one after another.
 9. I set up a simple Apache2 Server to test the requests and I was able to get more than 2600 requests in a couple seconds 
-10. The IP of the requestreceived is '52.114.128.37' and the User-Agent is 'Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5'
+10. The IP of the request received is '52.114.128.37' and the User-Agent is 'Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5'
     
 ## Supporting materials/ references:
     
